@@ -1,0 +1,12 @@
+.venv/
+.ruff_cache/
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Generated customer output
+*.csv
+!samples/*.csv
+*.log
+bulk_migration_results*.json
+*-results.json

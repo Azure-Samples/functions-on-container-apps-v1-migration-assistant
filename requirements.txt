@@ -1,0 +1,5 @@
+azure-identity>=1.25,<2
+azure-mgmt-resource>=26,<27
+azure-mgmt-resource-subscriptions>=1.0,<2
+azure-mgmt-resourcegraph>=8,<9
+azure-mgmt-web>=11,<12

@@ -1,0 +1,12 @@
+Migration checkpoint health: /path/to/migration-checkpoints.csv
+  Total targets:       2
+  Healthy:             2
+  Unhealthy:           0
+  Checkpoint mismatch: 0
+
+  +----------------+--------------------+---------+------------+--------------+---------+
+  | Resource Group | Target App         | Health  | Checkpoint | Provisioning | Running |
+  +----------------+--------------------+---------+------------+--------------+---------+
+  | example-rg     | orders-function-v2 | Healthy | Matched    | Succeeded    | Running |
+  | example-rg     | timer-function-v2  | Healthy | Matched    | Succeeded    | Running |
+  +----------------+--------------------+---------+------------+--------------+---------+

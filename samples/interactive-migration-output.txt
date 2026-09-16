@@ -1,0 +1,20 @@
+Selected source app: example-rg/orders-function
+
+Destination
+--------------------------------------------------------------------------------
+  Subscription:   00000000-0000-0000-0000-000000000000
+  Resource group: example-rg
+
+Destination app name [orders-function-v2]:
+
+Migration plan
+--------------------------------------------------------------------------------
+Source ARM ID:      /subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/example-rg/providers/Microsoft.Web/sites/orders-function
+Destination ARM ID: /subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/example-rg/providers/Microsoft.App/containerApps/orders-function-v2
+Environment: /subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/example-rg/providers/Microsoft.App/managedEnvironments/example-env
+Image:       example.azurecr.io/functions/orders:1.0
+Resources:   1.0 CPU, 2Gi memory
+Scale:       0 to 10 replicas
+Dapr:        disabled
+--------------------------------------------------------------------------------
+Deploy this migration? [y/N]:
